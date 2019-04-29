@@ -40,7 +40,7 @@ class Persona():
         self.edad = edad
         
     def __str__(self):
-        return "Nombre: {} de {} años".format(self.nombre, self.edad)
+        return "Nombre: {} de {} annos".format(self.nombre, self.edad)
     
 personas = [
     Persona("Andres",22),
